@@ -1,4 +1,4 @@
-.grid-container {
+/* .grid-container {
     margin: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -6,14 +6,222 @@
 }
 .grid-item {
     /* background-color: rgba(255, 255, 255, 0.5); */
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-.flex-box{
+    /* background-color: transparent; */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 20px; */
+    /* font-size: 30px; */
+    /* text-align: center; */
+/* } */
+/* .flex-box{
     display: flex;
     align-items: center;
     justify-content: center;
+} */ 
+
+.mainDiv {
+    height: 450px;
+    width: 820px;
+    border: 1px solid black;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid black;
+    border-right: 0;
+    padding: 5px;
+}
+
+.first {
+    height: 443px;
+    width: 800px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.second {
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.sec1 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.nested2 {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 140px;
+    border: 1px solid black;
+}
+
+.nes2_top {
+    border: 1px solid black;
+    height: 40px;
+    margin: 2px 2px 2px 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nes2_mid {
+    height: 40px;
+    display: flex;
+    margin: 2px 2px 0px 2px;
+    text-align: center;
+}
+
+.col1 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.col2 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.nes2_last {
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    margin: 2px 2px 0px 2px;
+    text-align: center;
+}
+
+.text1 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.text2 {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.sec2 {
+    flex: 0.5;
+    border: 1px solid black;
+    margin: 2px;
+    /* float: right;
+    align-items: center; */
+}
+
+.nested1 {
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 165px;
+    border: 1px solid black;
+}
+
+.nes1_top {
+    border: 1px solid black;
+    height: 40px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 2px 2px 0px 2px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nes1_last {
+    height: 100px;
+    border: 1px solid black;
+    margin: 2px 2px 2px 2px;
+    padding-left: 10px;
+}
+
+.third {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.nes3_top {
+    border: 1px solid black;
+    height: 30px;
+    width: 370px;
+    margin: 2px 1px 2px 2px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.nes3_last {
+    height: 30px;
+    display: flex;
+    margin: 1px 2px 2px 2px;
+    text-align: center;
+}
+
+.linktag {
+    margin-top: 5px;
+    padding: 5px;
+    flex: 0.5;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.sec3 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.sec4 {
+    flex: 0.5;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.nes4 {
+    border: 1px solid black;
+    height: 25px;
+    width: 369px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 2px 1px 1px 2px;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+}
+
+.html {
+    background-color: black;
+    color: white;
+}
+
+.nested3 {
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 0px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.nested4 {
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+    height: 80px;
+    border: 1px solid black;
 }
